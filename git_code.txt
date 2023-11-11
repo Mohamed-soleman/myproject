@@ -1,0 +1,46 @@
+git status
+git add 'fiels'
+git commit -m "massege"
+git reset head 'files' = git restore --staged 'files'
+git push remotname localbranch
+git pull remotname
+git remote
+git remote add ÇÓã ÇáÇÊÕÇá  branch's link
+git branch
+git remote -v
+git config --global user.email
+git config --global user.name 
+git config --global user.email "new vlaue"
+git config --global user.name "new value"
+git config --global --unset user.name or user.email
+git init
+touch
+git push -u remotname localbranch =>pull and push
+git config --global alias.ÇáÇãÑ  ÇáÇÓã ÇáãÎÊÕÑ ááÇãÑ
+ãËÇá
+git config --global alias.st status
+git branch branch_name
+git checkout branch_name ÇáÊäŞá Èíä ÇáÈÑÇäÔ
+git branch -d branch_name ÍĞİ ÇáÈÑÇäÔ æáßä İí ÍÇáå Çäå ÛíÑ ãÎÊáİ Çæ Êã ÏãÌå ãÚ ÇáÈÑÇäÔ ÇáÇÓÇÓí
+git branch -D branch_name ÍĞİ ÇáÈÑÇäÔ Úáí Çí ÍÇá
+git checkout -b branch name ÊäÔÆ ÇáÈÑÇäÔ æÊĞåÈ Çáíå
+git branch -m new_name_to_branch
+git merge branch_name
+ls
+git stash ÊÎİí ÇáãáİÇÊ ÇáÊí İí ÍÇáå add
+git stash pop ÊÑÌÚ ÇáãáİÇÊ ÇáãÎİíå
+git stash list ÊÑÌÚ ÚÏÏ ãÑÇÊ ÇáÇÎİÇÁ
+git stash show 
+git stash pop stash@{"number"} áÍĞİ ÌÒÁ ãÍÏÏ æáíÓ ÇÎÑ ÌĞÁ
+git stash show stash@{"number"}áÑæÆíå ÌĞÁ ãÚíä æáíÓ ÇÎÑ ÌĞÁ
+git stash save "massege "ÇáÊÎÒíä ãÚ ÊÍÏíÏ ÇáÑÓÇáå ááÊİÑíŞ İíãÇ ÈÚÏ Èíäåã ÇĞÇ ÒÇÏ ÇáÚÏÏ
+git stash apply íÑÌÚ  äÓÎå ãä ÇáŞíã æíÊÑß ÇáãÎÒä Ïæä ÇáÍĞİ
+git stash drop íÍĞİ ÇáãÎĞä ÇáãáİÇÊ ÇáÊí Èå
+git stash drop stash@{"number"}   íÍĞİ ÇáãÎĞä ãÍÏÏ  ÈÇáãáİÇÊ ÇáÊí Èå æáíÓ ÇÎÑ ãÎĞä
+git stash clear íÍĞİ  ßá ÇáãÎÇĞä ÈÇáãáİÇÊ ÇáÊí Èå
+code 'file' íİÊÍ Çáãáİ ÈÇáãÍÑÑ ÇáÇßæÇÏ
+git clean -n íÑÌ ÇÓãÇÁ ÇáãáİÇÊ ÇáÊí ÎÇÑÌ ÇáÇØÇÑ æÇáÊí Óæİ ÊÍĞİ
+git clean -f ÊÍĞİ ÇáãáİÇÊ ÇáÊí ÎÇÑÌ ÇáÇØÇÑ 
+clean íÊÚÇãá ãÚ ÇáãáİÇÊ ÇáÊí ÇäÔÇÆÊ æáíÓÊ ÇáÊí Êã ÊÚÏíáåÇ 
+git reset --hard äŞÑã ÇáßæãÊ ÇáãÑÇÏ ÇáæŞæİ Úáíå áÍĞİ ßá ãÇ Êã ÇÖÇİÊå ÈÚÏå
+git push "origin" "master" --force íäŞá ÇáÊÚÏíá æåæ ÍĞİ ÇáßæãÊ
